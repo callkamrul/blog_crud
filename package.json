@@ -1,5 +1,5 @@
 {
-  "name": "blog CRUD",
+  "name": "blog_crud",
   "version": "1.0.0",
   "description": "blog crud for Vue Sqlite and Electron",
   "main": "main.js",
@@ -26,9 +26,21 @@
   },
   "homepage": "https://github.com/callkamrul/blog_crud#readme",
   "dependencies": {
-    "sqlite3": "^3.1.13"
+    "sqlite3": "^3.1.13",
+    "vue": "^2.5.13"
   },
   "devDependencies": {
-    "electron": "^1.7.10"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "electron": "^1.7.10",
+    "electron-prebuilt": "^1.4.13",
+    "i": "^0.3.6",
+    "npm": "^5.6.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^13.7.0",
+    "vue-style-loader": "^3.0.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
   }
 }
